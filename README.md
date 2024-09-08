@@ -12,8 +12,13 @@ I also created a dictionary table with all the company stock symbols and their a
 
 # Analysis
 The analysis can be found in the 'eda.ipynb' jupyter notebook. Most of the graphs were created with plotly so they are interactive. 
-Unfortunately GitHub does not render plotly graphs so to see them you will have to download the notebook.
+Unfortunately GitHub does not render plotly graphs interactively so you will have to download the notebooks for that.
+![trend over time](trend.png)
+![close price](close_price.png)
+![correlation matrix](correlation.png)
 
+![tsla distribution](tesla.png)
+![ibm distribution](ibm.png)
 TLDR of the analysis:<br>
 *2022 was a historically bad year for big tech companies*
 #
@@ -23,3 +28,5 @@ I'm currently doing some research as to why to hopefully update this repo with a
 # Forecasting
 
 I fit an ARIMA forecasting model to the past 20+ years of daily Intel close prices. The `Auto ARIMA` function found a (3, 1, 2) model, meaning that the close price for intel stocks were highly correlated with the lagged value 3 days priot and the price shocks from 2 days prior. This manifested into a model that had a test RMSE of 0.99, meaning that the model averaged a 0.99 USD error from the observed close prices. The code can be found in the 'intel_forecast.ipynb' jupyter nobebook.
+
+![intel predictions](forecast.png)
