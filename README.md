@@ -14,7 +14,6 @@ I also created a dictionary table with all the company stock symbols and their a
 The analysis can be found in the 'eda.ipynb' jupyter notebook. Most of the graphs were created with plotly so they are interactive. 
 Unfortunately GitHub does not render plotly graphs interactively so you will have to download the notebooks for that.
 ![trend over time](trend.png)
-![close price](close_price.png)
 ![correlation matrix](correlation.png)
 
 ![tsla distribution](tesla.png)
