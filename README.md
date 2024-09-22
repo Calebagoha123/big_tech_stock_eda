@@ -31,4 +31,4 @@ I fit an ARIMA forecasting model to the past 20+ years of daily Intel close pric
 ![intel predictions](forecast.png)
 
 A similar forecast for tesla:
-![tesla predictions](tesla_forecast.png)
+![tesla predictions](tsla_forecast.png)
