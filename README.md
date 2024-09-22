@@ -29,3 +29,6 @@ I'm currently doing some research as to why to hopefully update this repo with a
 I fit an ARIMA forecasting model to the past 20+ years of daily Intel close prices. The `Auto ARIMA` function found a (3, 1, 2) model, meaning that the close price for intel stocks were highly correlated with the lagged value 3 days priot and the price shocks from 2 days prior. This manifested into a model that had a test RMSE of 0.99, meaning that the model averaged a 0.99 USD error from the observed close prices. The code can be found in the 'intel_forecast.ipynb' jupyter nobebook.
 
 ![intel predictions](forecast.png)
+
+A similar forecast for tesla:
+! [tesla predictions](tsla_forecast.png)
